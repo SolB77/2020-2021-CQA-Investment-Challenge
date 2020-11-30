@@ -45,9 +45,9 @@ portfolioupdate += ('The total portfolio value is currently: $' + str(round(tota
 portfolio['positionweight'] = portfolio['MarketValue']/totalportfoliovalue
 
 #Identify overweight stocks
-overweightstocks = portfolio[portfolio['positionweight']>.05]
-verycloseoverweightstocks = portfolio[portfolio['positionweight']>.045]
-closeoverweightstocks = portfolio[portfolio['positionweight']>.04]
+overweightstocks = portfolio[portfolio['positionweight']>=.05]
+verycloseoverweightstocks = portfolio[(portfolio['positionweight']>=.045) & (portfolio['positionweight']<.5)]
+closeoverweightstocks = portfolio[(portfolio['positionweight']>=.04) & (portfolio['positionweight']<.45)]
 print(overweightstocks)
 
 #Calculate dollar neutrality rate
