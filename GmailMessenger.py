@@ -1,3 +1,4 @@
+#!/Applications/miniconda3/envs/CQAChallenge/bin/python
 #Import required libraries and modules
 import smtplib
 import config
