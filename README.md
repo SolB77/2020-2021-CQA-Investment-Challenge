@@ -1,4 +1,4 @@
-# 2020-2021-CQA-Portfolio-Competition
+# 2020-2021-CQA-Investment-Challenge
 This repository contains both a automatic investment challenge portfolio update application and in the future, a folder of some algorithmic trading strategies I am developing to improve our alpha. 
 
 Automatic Investment Challenge Portfolio Update Application
