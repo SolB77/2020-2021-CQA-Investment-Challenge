@@ -1,3 +1,4 @@
+#!/Applications/miniconda3/envs/CQAChallenge/bin/python
 #Imports
 import pandas as pd
 import numpy as np
