@@ -1,8 +1,8 @@
-#!/Applications/miniconda3/envs/CQAChallenge/bin/python
 #Import required libraries and modules
-import smtplib
 import config
 from NonJupyterPCS import portfolioupdate
+import smtplib
+
 
 #Define function to send email
 def send_email(subject, msg):
