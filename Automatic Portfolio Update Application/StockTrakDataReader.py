@@ -1,4 +1,4 @@
-#!/Applications/miniconda3/envs/CQAChallenge/bin/python3
+#!/Applications/miniconda3/envs/CQAChallenge/bin/python
 #Import os, glob, and pathlib (Provides access to file control)
 import os
 import glob
