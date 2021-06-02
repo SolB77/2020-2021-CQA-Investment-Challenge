@@ -16,8 +16,9 @@ def send_email(subject, msg):
         server.quit()
         print('Success!')
     except:
-        print('Email failed to send!')
+        raise Exception('Email failed to send!')
 
+#Send email
 send_email('Dutchmen Alpha Fund Portfolio Update', portfolioupdate)
 
 
